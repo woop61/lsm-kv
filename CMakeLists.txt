@@ -41,6 +41,7 @@ enable_testing()
 add_executable(unit_tests
         tests/test_smoke.cpp
         tests/test_skiplist.cpp
+        tests/test_memtable.cpp
 )
 target_link_libraries(unit_tests PRIVATE kvstore_core GTest::gtest_main)
 
