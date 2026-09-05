@@ -1,0 +1,11 @@
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# CMake
+build/
+
+# temp sys files
+*.swp
+*~
+.DS_Store
